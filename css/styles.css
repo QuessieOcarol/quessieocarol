@@ -1,0 +1,478 @@
+body {
+	margin: 0;
+	font-family: century gothic;
+}
+header {
+	background: white;
+
+}
+.logo-section {
+	width: 21%;
+	display: inline-block;
+}
+.logo-section img{
+	width: 50%;
+	margin-left: 130px;
+	margin-top: 4px;
+	margin-bottom: -29px;
+}
+nav{
+	float: right;
+	margin-top: 36px;
+	margin-right: 148px;
+}
+a{
+	text-decoration: none;
+	color: black;
+	padding: 10px 10px;
+}
+nav a:hover{
+	background: #af9191;
+	border-radius: 10px;
+}
+
+section.banner-section {
+	background-image: url(../images/2.jpeg);
+	padding: 43px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+}
+
+section.banner-section h1 {
+	text-align: center;
+	font-size: 110px;
+	text-transform: uppercase;
+	border: 2px solid black;
+	color: #f1e3d0;
+}
+
+section.banner-section h3 {
+	text-align: center;
+	font-size: 30px;
+	text-transform: uppercase;
+	color: #f1e3d0;
+	font-family: century gothic;
+}
+
+section.about-section {
+	padding: 7px 0 300px;
+	background: white;
+}
+
+
+.about-div-left {
+	color:  #af9191;
+	text-align: center;
+	margin-left: 250px;
+    margin-right: 250px;
+    font-family: century gothic;
+    padding: 39px;
+}
+
+.pictures {
+	display: flex;
+	justify-content: space-around;
+}
+
+.image-container {
+	height: 500px;
+	width: 800px;
+	position: relative;
+
+}
+.lisa {
+	margin-left: 278px;
+}
+
+.image-container img {
+	width: 70%;
+	height: 70%;
+	margin-left: 130px;
+
+}
+
+.image-container::after {
+	content: "'Town In The Lake'";
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: black;
+	width:70%;
+	height: 70%;
+	position: absolute;
+	left: 129px;
+	opacity: 0;
+	transition: opacity 0.5% ease;
+	top: 0;
+}
+
+.image-container:hover::after {
+	opacity: 0.5;
+}
+
+
+.image-container1 {
+	height: 500px;
+	width: 800px;
+	position: relative;
+}
+.moon {
+	margin-left: 252px;
+}
+
+.image-container1 img {
+	width: 70%;
+	height: 70%;
+	margin-left: 80px;
+}
+.image-container1::after {
+	content: "'Abstraction'";
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: black;
+	width:70%;
+	height: 70%;
+	position: absolute;
+	left: 80px;
+	opacity: 0;
+	transition: opacity 0.5% ease;
+	top: 0;
+}
+
+.image-container1:hover::after {
+	opacity: 0.5;
+}
+
+
+.pictures1 {
+	display: flex;
+	justify-content: space-around;
+}
+
+
+.image-container2 {
+	height: 500px;
+	width: 800px;
+	position: relative;
+
+}
+.jennie {
+	margin-left: 278px;
+}
+
+.image-container2 img {
+	width: 70%;
+	height: 70%;
+	margin-left: 130px;
+
+}
+
+.image-container2::after {
+	content: "'Town In The Lake'";
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: black;
+	width:70%;
+	height: 70%;
+	position: absolute;
+	left: 129px;
+	opacity: 0;
+	transition: opacity 0.5% ease;
+	top: 0;
+}
+
+.image-container2:hover::after {
+	opacity: 0.5;
+}
+
+
+.image-container3 {
+	height: 500px;
+	width: 800px;
+	position: relative;
+}
+.kim {
+	margin-left: 252px;
+}
+
+.image-container3 img {
+	width: 70%;
+	height: 70%;
+	margin-left: 80px;
+}
+.image-container3::after {
+	content: "'The Look'";
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: black;
+	width:70%;
+	height: 70%;
+	position: absolute;
+	left: 80px;
+	opacity: 0;
+	transition: opacity 0.5% ease;
+	top: 0;
+}
+
+.image-container3:hover::after {
+	opacity: 0.5;
+}
+
+.pictures2 {
+	display: flex;
+	justify-content: space-around;
+}
+
+
+.image-container4 {
+	height: 500px;
+	width: 800px;
+	position: relative;
+
+}
+.bae {
+	margin-left: 278px;
+}
+
+.image-container4 img {
+	width: 70%;
+	height: 70%;
+	margin-left: 130px;
+
+}
+
+.image-container4::after {
+	content: "'Adventure Awaits'";
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: black;
+	width:70%;
+	height: 70%;
+	position: absolute;
+	left: 129px;
+	opacity: 0;
+	transition: opacity 0.5% ease;
+	top: 0;
+}
+
+.image-container4:hover::after {
+	opacity: 0.5;
+}
+
+
+.image-container5 {
+	height: 500px;
+	width: 800px;
+	position: relative;
+}
+.kang {
+	margin-left: 252px;
+}
+
+.image-container5 img {
+	width: 70%;
+	height: 70%;
+	margin-left: 80px;
+}
+.image-container5::after {
+	content: "'Mural Painting'";
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: black;
+	width:70%;
+	height: 70%;
+	position: absolute;
+	left: 80px;
+	opacity: 0;
+	transition: opacity 0.5% ease;
+	top: 0;
+}
+
+.image-container5:hover::after {
+	opacity: 0.5;
+}
+
+.pictures3 {
+	display: flex;
+	justify-content: space-around;
+}
+
+
+.image-container6 {
+	height: 500px;
+	width: 800px;
+	position: relative;
+
+}
+.yoo {
+	margin-left: 278px;
+}
+
+.image-container6 img {
+	width: 70%;
+	height: 70%;
+	margin-left: 130px;
+
+}
+
+.image-container6::after {
+	content: "'Yadom'";
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: black;
+	width:70%;
+	height: 70%;
+	position: absolute;
+	left: 129px;
+	opacity: 0;
+	transition: opacity 0.5% ease;
+	top: 0;
+}
+
+.image-container6:hover::after {
+	opacity: 0.5;
+}
+
+
+.image-container7 {
+	height: 500px;
+	width: 800px;
+	position: relative;
+}
+.ims {
+	margin-left: 252px;
+}
+
+.image-container7 img {
+	width: 70%;
+	height: 70%;
+	margin-left: 80px;
+}
+.image-container7::after {
+	content: "'Hwalion'";
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: black;
+	width:70%;
+	height: 70%;
+	position: absolute;
+	left: 80px;
+	opacity: 0;
+	transition: opacity 0.5% ease;
+	top: 0;
+}
+
+.image-container7:hover::after {
+	opacity: 0.5;
+}
+
+
+.about-div-bot {
+
+	color:  #5d5757;
+	text-align: center;
+	margin-left: 200px;
+    margin-right: 200px;
+    font-family: century gothic;
+    margin-top: 100px;
+    font-size: 32px;
+
+}
+
+.sentence {
+	color:  #af9191;
+	text-align: center;
+	margin-left: 250px;
+    margin-right: 250px;
+    font-family: century gothic;
+    padding: 39px;
+}
+
+.buttons {
+	text-decoration: none;
+	font-size: 18px;
+	color: #5d5757;
+	text-align: center;
+	margin-top: 4px;
+	margin-left: 620px;
+	
+}
+section.cta-section {
+	border-top: 2px solid black;
+	padding: 50px 0;
+	text-align: center;
+	font-size: 40px;
+	background: #934640;
+	color: #f1e3d0;
+	margin-top: 100px;
+}
+
+.cta-section button {
+	background: #792631;
+    border: 1px solid;
+    padding: 15px 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+    border-radius: 13px;
+    color: #f1e3d0;
+}
+
+/* footer*/
+footer {
+	background-color: #c3c1c2;
+}
+section.about-section{
+	padding: 7px 0 0;
+}
+section.footer-section {
+    background: #f1e3d0;
+    color: black;
+}
+.footer-section{
+	display: inline-block;
+	color: black;
+	margin-left: 21px;
+}
+
+.footer-section h5 {
+    padding-bottom: 0px;
+    margin: 17px;
+    display: inline-block;
+    color: black;
+}}
+
+.footer-section ul {
+
+    display: inline-block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+
+}
+
+.footer-section2 {
+    color: black;;
+    float: right;
+    margin-right: 35px;
+
+	
+}
